@@ -15,3 +15,5 @@ roles:
 ## Required variables
  - `cloudwatch_region` Cloudwatch region to send the logs to.
  - `cloudwatch_log_group` Cloudwatch log group to send the logs to.
+ - `sonarr_downloads_folder` Folder path to place downloads in.
+ - `sonarr_tv_folder` Folder path to place series in.
