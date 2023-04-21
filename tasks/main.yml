@@ -23,7 +23,7 @@
 - name: Create app container
   docker_container:
     name: "{{ application_name }}-app"
-    image: "linuxserver/sonarr:arm32v7-3.0.8-develop"
+    image: "linuxserver/sonarr:arm32v7-4.0.0-develop"
     restart_policy: "always"
     pull: true
     log_driver: "awslogs"
