@@ -22,7 +22,7 @@
 - name: Create app container
   docker_container:
     name: "{{ application_name }}-app"
-    image: "linuxserver/sonarr:3.0.10"
+    image: "linuxserver/sonarr:4.0.1"
     restart_policy: "always"
     pull: true
     log_driver: "loki"
